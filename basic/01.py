@@ -28,8 +28,9 @@
 
 # print("Temprature in fahrenheit:", round_fahrenheit)
 
-length = float(input("Enter the length of rectangle: "))
-width = float(input("Enter the width of rectangle: "))
+# length = float(input("Enter the length of rectangle: "))
+# width = float(input("Enter the width of rectangle: "))
 
-area = length * width
-print("The area of rectangle is: ",area)
+# area = length * width
+# print("The area of rectangle is: ",area)
+
