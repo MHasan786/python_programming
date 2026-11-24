@@ -11,12 +11,13 @@
 
 # print("Welcome to", name)
 
-n1 = int(input("Enter a num1: "))
-n2 = int(input("Enter a num2: "))
+# n1 = int(input("Enter a num1: "))
+# n2 = int(input("Enter a num2: "))
 
-sum = n1 + n2
-n3 = str(n2)
-print(type(n3))
+# sum = n1 + n2
+# n3 = str(n2)
+# print(type(n3))
 
-print("Sum of two numbers: ",sum)
+# print("Sum of two numbers: ",sum)
+
 
