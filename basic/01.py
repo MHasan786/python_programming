@@ -21,3 +21,15 @@
 # print("Sum of two numbers: ",sum)
 
 
+# temp_cel = int(input("Enter temprature in Celcius: "))
+
+# fahrenheit = (temp_cel * 1.8) + 32
+# round_fahrenheit = round(fahrenheit, 2)
+
+# print("Temprature in fahrenheit:", round_fahrenheit)
+
+length = float(input("Enter the length of rectangle: "))
+width = float(input("Enter the width of rectangle: "))
+
+area = length * width
+print("The area of rectangle is: ",area)
