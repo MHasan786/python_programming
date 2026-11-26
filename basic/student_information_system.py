@@ -26,8 +26,8 @@ marks_cs = int(input("Enter your marks in Computer Science: "))
 
 total_marks = 300
 given_marks = marks_eng + marks_math + marks_cs
-avg_marks = given_marks / 3
-per_marks = (given_marks / total_marks) * 100
+avg_marks = round(given_marks / 3,2)
+per_marks = round((given_marks / total_marks) * 100,2)
 
 print("==================================")
 print("       STUDENT REPORT        ")
