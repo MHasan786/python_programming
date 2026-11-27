@@ -27,8 +27,11 @@ elif operator == "**":
     result2 = second_num ** 2
     print(f"Power of first number: {result1}\nPower of second number: {result2}")
 elif operator == "//":
-    result = first_num // second_num
-    print("Result: ",result)
+    if second_num != 0:
+        result = first_num // second_num
+        print("Result: ",result)
+    else:
+        print("Error: Can not divided by zero.")
 elif operator == "%":
     if second_num != 0:
         result = first_num % second_num
