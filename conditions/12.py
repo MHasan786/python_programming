@@ -1,6 +1,6 @@
 # Calculate discount based on shopping amount
 
-shoping_amount = int(input("Enter shopping amount PKR: "))
+shoping_amount = int(input("Your shopping amount PKR: "))
 
 if shoping_amount >= 4000:
     if shoping_amount >= 4000 and shoping_amount <= 6000:
